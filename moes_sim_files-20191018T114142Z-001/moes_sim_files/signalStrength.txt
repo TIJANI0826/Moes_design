@@ -1,0 +1,5 @@
+ 
+Interface name : Wi-Fi 
+The wireless local area network interface is powered down and doesn't support the requested operation.
+
+

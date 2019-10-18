@@ -1,0 +1,4 @@
+Function WlanGetAvailableNetworkList returns error 2150899714:
+The wireless local area network interface is powered down and doesn't support the requested operation.
+
+

@@ -1,0 +1,9 @@
+create two .bat files if you are on windows or .bash files if you are on linux.
+in MOES1.bat insert this code
+netsh wlan add profile filename = "MOES1.xml"
+netsh wlan set profileparameter name=MOES1 SSIDname=MOES1 keymaterial=codel201711
+netsh wlan connect name=MOES1 ssid=MOES1
+in MOES2.bat put this code
+netsh wlan add profile filename = "MOES2.xml"
+netsh wlan set profileparameter name=MOES2 SSIDname=MOES2 keymaterial=qwerty123
+netsh wlan connect name=MOES2 ssid=MOES2
